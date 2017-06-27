@@ -40,3 +40,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+package-lock.json
+src/app/home-component/
+src/app/page-not-found/
+src/app/scan-callback/
+src/app/start-scan/
