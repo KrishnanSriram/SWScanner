@@ -1,0 +1,85 @@
+<!--The whole content below can be removed with the new code.-->
+<div class="">
+  <div class="jumbotron">
+    <h2 class="display-5">Welcome to {{title}}</h2>
+    <p class="lead">{{lead}}</p>
+    <hr class="my-4">
+    <p>{{lead2}}</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" routerLink="/startscan" role="button">Start Scan</a>
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card-header">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#previous_scans" role="tab">Previous Scan reports</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#best_practices" role="tab">Best Practices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#top_malwares" role="tab">Top malwares identified</a>
+      </li>
+    </ul>
+  </div>
+  <div class="tab-content">
+    <div id="previous_scans" class="tab-pane active" role="tabpanel" style="margin-top: 20px">
+      <h4 class="card-title">Previous scan reports</h4>
+      <p class="card-text">Tap on the list to see detailed report on your previous scans</p>
+      <ul class="list-group">
+        <li class="list-group-item justify-content-between">
+          July 2017
+          <span class="badge badge-default badge-pill">4</span>
+        </li>
+        <li class="list-group-item justify-content-between">
+          June 2017
+          <span class="badge badge-default badge-pill">2</span>
+        </li>
+        <li class="list-group-item justify-content-between">
+          March 2017
+          <span class="badge badge-default badge-pill">1</span>
+        </li>
+      </ul>
+    </div>
+    <div id="best_practices" class="tab-pane" role="tabpanel" style="margin-top: 20px">
+      <h4 class="card-title">Best practices to keep your machine clean & running</h4>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div id="top_malwares" class="tab-pane" role="tabpanel" style="margin-top: 20px">
+      <h4 class="card-title">Top malware from our reports</h4>
+      <div class="list-group">
+        <!--<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">-->
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Conficker</h5>
+          <small>3 days ago</small>
+        </div>
+        <p class="mb-1">Cybercriminals are constantly developing and testing new forms of malicious software in order to make it as easy as possible for them to break down barriers and get a foothold into your network</p>
+        <small>Malware addressed and remover available.</small>
+        <hr>
+        <!--</a>-->
+        <!--<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">-->
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Locky ransomware</h5>
+          <small class="text-muted">3 days ago</small>
+        </div>
+        <p class="mb-1">File encrypting malicious software -- known as ransomware -- has become big business for cybercriminals and it's Locky which has become the most infamous and most successful of them all.</p>
+        <small class="text-muted">Malware addressed and remover available.</small>
+        <hr>
+        <!--</a>-->
+        <!--<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">-->
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Zeus</h5>
+          <small class="text-muted">3 days ago</small>
+        </div>
+        <p class="mb-1">A form of Trojan malware, Zeus is designed to steal confidential information such as online credentials and banking information from infected machines. The very nature of the beast means it goes out of its way to avoid detection in order to gather as much data as possible.</p>
+        <small class="text-muted">Malware addressed and remover available.</small>
+        <hr>
+        <!--</a>-->
+      </div>
+    </div>
+  </div>
+</div>
