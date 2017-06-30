@@ -1,1 +1,7 @@
 <router-outlet></router-outlet>
+<iframe *ngIf="!hideChat" class="chatWindowPos" id="chatFrame"
+        src="https://console.api.ai/api-client/demo/embedded/df5b35ac-db0e-44bc-b957-eee8069267f8">
+</iframe>
+<button (click)="showChatWindow()">
+  <img height="100" width="100" src="./../assets/images/chatnow.png" class="fix"/>
+</button>

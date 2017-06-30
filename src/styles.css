@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.fix{
+  position:fixed;
+  bottom:0px;
+  left:90%;
+}
+
+.chatWindowPos{
+  position:fixed;
+  bottom:20px;
+  left:67%;
+  width: 300px;
+  height: 350px;
+}
